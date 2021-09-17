@@ -45,7 +45,7 @@ async fn ws_heartbeat(
         custom_mode: 0,
         r#type: MavType::Quadrotor as i32,
         autopilot: MavAutopilot::Ardupilotmega as i32,
-        base_mode: MavModeFlag::Undefined as i32,
+        base_mode: MavModeFlag::Undefined as u32,
         system_status: MavState::Standby as i32,
         mavlink_version: 0x3,
     };
